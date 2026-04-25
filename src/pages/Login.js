@@ -55,7 +55,6 @@ function Login() {
         </label>
       )}
 
-      {/* NOVO LINK AQUI */}
       <p style={{ marginTop: '20px' }}>
         Não tem uma conta? <Link to="/cadastro">Cadastre-se</Link>
       </p>
