@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { auth } from '../services/firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 
@@ -49,14 +49,18 @@ function Login() {
         <button type="submit">Acessar</button>
       </form>
 
-      {/* Label que só aparece se houver alguma mensagem de erro */}
       {mensagem && (
         <label style={{ color: 'red', marginTop: '15px', textAlign: 'center' }}>
           {mensagem}
         </label>
       )}
+
+      {/* NOVO LINK AQUI */}
+      <p style={{ marginTop: '20px' }}>
+        Não tem uma conta? <Link to="/cadastro">Cadastre-se</Link>
+      </p>
+
     </div>
   );
 }
-
 export default Login;
