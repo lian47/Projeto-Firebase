@@ -2,4 +2,4 @@
 
 Projeto desenvolvido para a disciplina, integrando React Router Dom e Firebase (Authentication e Firestore).
 
-👉 **Link do projeto no ar:** [https://projeto-firebase-ef126.web.app/principal]
+👉 **Link do projeto no ar:** [https://projeto-firebase-ef126.web.app/]
