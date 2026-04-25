@@ -1,9 +1,11 @@
-import RoutesApp from "./routes";
+import RoutesApp from './routes';
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
       <RoutesApp />
     </div>
-  )
+  );
 }
+
+export default App; 
